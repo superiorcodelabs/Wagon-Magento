@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ *
+ * Created By : Digital Aptech
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Wagon_Moduleshipping::parent" title="Wagon Moduleshipping" module="Wagon_Moduleshipping" sortOrder="10" resource="Wagon_Moduleshipping::parent"/>
+        <add id="Wagon_Moduleshipping::shipments" title="View Shipment Records" module="Wagon_Moduleshipping" sortOrder="99" parent="Wagon_Moduleshipping::parent" action="moduleshipping/shipments" resource="Wagon_Moduleshipping::shipments"/>
+    </menu>
+</config>

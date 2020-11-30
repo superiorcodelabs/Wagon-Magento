@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+<default>
+<carriers>
+<wagon_moduleshipping>
+<active>0</active>
+<sallowspecific>0</sallowspecific>
+<price>0</price>
+<model>Wagon\Moduleshipping\Model\Carrier\Customshipping</model>
+<name>Wagon Shipping</name>
+<title>Wagon Custom Shipping</title>
+<specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+</wagon_moduleshipping>
+</carriers>
+</default>
+</config>
