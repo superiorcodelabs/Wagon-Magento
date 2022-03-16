@@ -1,0 +1,30 @@
+#go-wagon-drop-details {
+    margin-bottom: 20px;
+}
+#go-wagon-drop-wrapper {
+    display: flex;
+    align-items: center;
+}
+#gw-field-wrapper {
+    display: flex;
+}
+.gw-input {
+    width: 100%;
+}
+.gw-field {
+    margin-right: 20px;
+    flex: 1;
+}
+.gw-field:last-child {
+    margin-right: 0;
+}
+.go-wagon-logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.go-wagon-logo img {
+    width: 70%;
+}
+#gw-field-wrapper-cont {
+    flex-grow: 1;
+}
